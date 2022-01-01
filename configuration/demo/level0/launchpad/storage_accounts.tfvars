@@ -5,7 +5,7 @@ storage_accounts = {
     resource_group_key       = "level0"
     account_kind             = "BlobStorage"
     account_tier             = "Standard"
-    account_replication_type = "RAGRS"
+    account_replication_type = "GRS"
     tags = {
       ## Those tags must never be changed after being set as they are used by the rover to locate the launchpad and the tfstates.
       # Only adjust the environment value at creation time
@@ -27,7 +27,7 @@ storage_accounts = {
     resource_group_key       = "level1"
     account_kind             = "BlobStorage"
     account_tier             = "Standard"
-    account_replication_type = "RAGRS"
+    account_replication_type = "GRS"
     tags = {
       # Those tags must never be changed while set as they are used by the rover to locate the launchpad and the tfstates.
       tfstate     = "level1"
@@ -46,7 +46,7 @@ storage_accounts = {
     resource_group_key       = "level2"
     account_kind             = "BlobStorage"
     account_tier             = "Standard"
-    account_replication_type = "RAGRS"
+    account_replication_type = "GRS"
     tags = {
       # Those tags must never be changed while set as they are used by the rover to locate the launchpad and the tfstates.
       tfstate     = "level2"
@@ -65,7 +65,7 @@ storage_accounts = {
     resource_group_key       = "level3"
     account_kind             = "BlobStorage"
     account_tier             = "Standard"
-    account_replication_type = "RAGRS"
+    account_replication_type = "GRS"
     tags = {
       # Those tags must never be changed while set as they are used by the rover to locate the launchpad and the tfstates.
       tfstate     = "level3"
@@ -84,7 +84,7 @@ storage_accounts = {
     resource_group_key       = "level4"
     account_kind             = "BlobStorage"
     account_tier             = "Standard"
-    account_replication_type = "RAGRS"
+    account_replication_type = "GRS"
     tags = {
       # Those tags must never be changed while set as they are used by the rover to locate the launchpad and the tfstates.
       tfstate     = "level4"
